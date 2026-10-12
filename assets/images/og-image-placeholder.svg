@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Dr. Jasdeep Kaur — tarot and spiritual guidance. Placeholder social preview image.">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#241a52"/>
+      <stop offset="0.55" stop-color="#0d0b28"/>
+      <stop offset="1" stop-color="#050410"/>
+    </linearGradient>
+    <linearGradient id="og-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e9b6"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#9d7a1c"/>
+    </linearGradient>
+    <radialGradient id="og-glow" cx="0.78" cy="0.3" r="0.55">
+      <stop offset="0" stop-color="#d4af37" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <rect width="1200" height="630" fill="url(#og-glow)"/>
+  <rect x="28" y="28" width="1144" height="574" rx="20" fill="none" stroke="url(#og-gold)" stroke-width="1.6" opacity="0.55"/>
+
+  <!-- moon -->
+  <path d="M940 150a120 120 0 1 1 0 240 152 152 0 0 0 0-240z" fill="url(#og-gold)" opacity="0.9"/>
+
+  <!-- stars -->
+  <g fill="#f4ecd0" opacity="0.75">
+    <path d="M120 120l3 7.6 7.6 3-7.6 3-3 7.6-3-7.6-7.6-3 7.6-3z"/>
+    <path d="M640 96l2.4 6 6 2.4-6 2.4-2.4 6-2.4-6-6-2.4 6-2.4z"/>
+    <path d="M1080 470l3 7.6 7.6 3-7.6 3-3 7.6-3-7.6-7.6-3 7.6-3z"/>
+    <circle cx="240" cy="500" r="3"/>
+    <circle cx="760" cy="520" r="2.6"/>
+    <circle cx="1140" cy="120" r="2.4"/>
+  </g>
+
+  <text x="110" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#d4af37" letter-spacing="8">TAROT &amp; SPIRITUAL GUIDANCE</text>
+  <text x="110" y="360" font-family="Georgia, 'Times New Roman', serif" font-size="78" fill="#fdf4d8">Dr. Jasdeep Kaur</text>
+  <text x="110" y="428" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#b5afd2">Online tarot readings, angel card messages and private consultations</text>
+
+  <text x="110" y="546" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#8b85ab" letter-spacing="0.5">PLACEHOLDER SOCIAL IMAGE — replace with a 1200 × 630 JPEG or PNG before publishing</text>
+</svg>

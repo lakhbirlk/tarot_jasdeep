@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 840" width="500" height="840" role="img" aria-label="The Chariot tarot card: a crowned figure in a chariot beneath a canopy of stars, drawn by two sphinxes">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#241a52"/><stop offset="0.55" stop-color="#0e0b28"/><stop offset="1" stop-color="#06050f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.36" r="0.62">
+      <stop offset="0" stop-color="#7d60d4" stop-opacity="0.42"/><stop offset="1" stop-color="#7d60d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e9b6"/><stop offset="0.5" stop-color="#d4af37"/><stop offset="1" stop-color="#9d7a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="840" fill="url(#bg)"/>
+  <rect width="500" height="840" fill="url(#glow)"/>
+  <rect x="16" y="16" width="468" height="808" rx="18" fill="none" stroke="url(#gold)" stroke-width="2.6"/>
+  <rect x="30" y="30" width="440" height="780" rx="12" fill="none" stroke="#c9a94a" stroke-width="1" opacity="0.6"/>
+  <g fill="#f1da97" opacity="0.85">
+    <path d="M46 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M46 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+  </g>
+  <text x="250" y="104" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="30" fill="url(#gold)" letter-spacing="6">VII</text>
+  <path d="M120 128h260" stroke="#c9a94a" stroke-width="1" opacity="0.45"/>
+
+  <!-- art -->
+  <!-- city wall behind -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.45">
+    <path d="M70 470V396h52v-26h40v26h58v-26h40v26h58v-26h40v26h52v74"/>
+    <path d="M70 440h360"/>
+  </g>
+
+  <!-- canopy of stars -->
+  <g fill="none" stroke="url(#gold)" stroke-width="2.4">
+    <path d="M140 208h220"/>
+    <path d="M198 208h4M198 230h4M254 208h4M254 230h4M310 208h4M310 230h4"/>
+  </g>
+  <g fill="#f1da97" opacity="0.9">
+    <circle cx="166" cy="222" r="3.4"/><circle cx="222" cy="216" r="3"/><circle cx="278" cy="224" r="3.4"/>
+    <circle cx="334" cy="216" r="3"/><circle cx="196" cy="236" r="2.6"/><circle cx="252" cy="240" r="2.6"/><circle cx="308" cy="236" r="2.6"/>
+  </g>
+  <!-- canopy pillars -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2.2" stroke-linecap="round">
+    <path d="M152 208v262M348 208v262"/>
+  </g>
+
+  <!-- charioteer -->
+  <g fill="#0d0b28" fill-opacity="0.95" stroke="#e9d79a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="250" cy="316" r="22"/>
+    <path d="M250 338c-24 0-40 24-44 60-2 22-2 44-1 62h90c1-18 1-40-1-62-4-36-20-60-44-60z"/>
+    <path d="M250 352l-34 40M250 352l36 30"/>
+  </g>
+  <!-- crown of stars -->
+  <g fill="#f1da97" opacity="0.9">
+    <path d="M232 286l3 7.6 7.6 3-7.6 3-3 7.6-3-7.6-7.6-3 7.6-3z"/>
+    <path d="M268 286l3 7.6 7.6 3-7.6 3-3 7.6-3-7.6-7.6-3 7.6-3z"/>
+    <path d="M250 274l2.6 6.6 6.6 2.6-6.6 2.6-2.6 6.6-2.6-6.6-6.6-2.6 6.6-2.6z"/>
+  </g>
+  <!-- crescent moons on the shoulders -->
+  <g transform="translate(214 372)">
+    <circle r="10" fill="url(#gold)" opacity="0.9"/><circle cx="4.5" cy="-2" r="8.6" fill="#0d0b28"/>
+  </g>
+  <g transform="translate(286 372)">
+    <circle r="10" fill="url(#gold)" opacity="0.9"/><circle cx="4.5" cy="-2" r="8.6" fill="#0d0b28"/>
+  </g>
+  <!-- wand -->
+  <g fill="none" stroke="url(#gold)" stroke-width="2.4" stroke-linecap="round">
+    <path d="M286 382l30-84"/>
+  </g>
+
+  <!-- chariot -->
+  <g fill="#0d0b28" fill-opacity="0.95" stroke="url(#gold)" stroke-width="2.6" stroke-linejoin="round">
+    <path d="M164 460h172v104H164z"/>
+  </g>
+  <g fill="none" stroke="#e9d79a" stroke-width="2" stroke-linecap="round">
+    <path d="M250 470l6 16 16 6-16 6-6 16-6-16-16-6 16-6z"/>
+  </g>
+
+  <!-- wheels -->
+  <g fill="none" stroke="url(#gold)" stroke-width="2.4">
+    <circle cx="184" cy="576" r="26"/><circle cx="316" cy="576" r="26"/>
+    <path d="M184 550v52M158 576h52M316 550v52M290 576h52"/>
+  </g>
+
+  <!-- two sphinxes -->
+  <g fill="#0d0b28" fill-opacity="0.92" stroke="#e9d79a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M126 660v-34c0-16 12-26 28-26h26c14 0 22 10 22 24v36"/>
+    <circle cx="164" cy="592" r="16"/>
+    <path d="M152 580l-6-12 14 6M176 580l6-12-14 6"/>
+  </g>
+  <g fill="#0d0b28" fill-opacity="0.92" stroke="#e9d79a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M374 660v-34c0-16-12-26-28-26h-26c-14 0-22 10-22 24v36"/>
+    <circle cx="336" cy="592" r="16"/>
+    <path d="M348 580l6-12-14 6M324 580l-6-12 14 6"/>
+  </g>
+
+  <!-- starry ground -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.5">
+    <path d="M92 664h316"/>
+  </g>
+  <g fill="#f1da97" opacity="0.7">
+    <circle cx="120" cy="690" r="2.6"/><circle cx="176" cy="702" r="2.2"/><circle cx="250" cy="692" r="2.6"/>
+    <circle cx="324" cy="702" r="2.2"/><circle cx="380" cy="690" r="2.6"/>
+  </g>
+
+  <text x="250" y="768" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="28" fill="url(#gold)" letter-spacing="3">THE CHARIOT</text>
+</svg>

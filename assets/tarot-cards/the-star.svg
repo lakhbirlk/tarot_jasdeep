@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 840" width="500" height="840" role="img" aria-label="The Star tarot card: a kneeling figure pouring water beneath a great star and seven smaller stars">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#241a52"/><stop offset="0.55" stop-color="#0e0b28"/><stop offset="1" stop-color="#06050f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.36" r="0.62">
+      <stop offset="0" stop-color="#7d60d4" stop-opacity="0.42"/><stop offset="1" stop-color="#7d60d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e9b6"/><stop offset="0.5" stop-color="#d4af37"/><stop offset="1" stop-color="#9d7a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="840" fill="url(#bg)"/>
+  <rect width="500" height="840" fill="url(#glow)"/>
+  <rect x="16" y="16" width="468" height="808" rx="18" fill="none" stroke="url(#gold)" stroke-width="2.6"/>
+  <rect x="30" y="30" width="440" height="780" rx="12" fill="none" stroke="#c9a94a" stroke-width="1" opacity="0.6"/>
+  <g fill="#f1da97" opacity="0.85">
+    <path d="M46 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M46 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+  </g>
+  <text x="250" y="104" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="30" fill="url(#gold)" letter-spacing="6">XVII</text>
+  <path d="M120 128h260" stroke="#c9a94a" stroke-width="1" opacity="0.45"/>
+
+  <!-- art -->
+  <!-- seven smaller stars -->
+  <g fill="#f1da97" opacity="0.9">
+    <path d="M318 208l3.4 8.6 8.6 3.4-8.6 3.4-3.4 8.6-3.4-8.6-8.6-3.4 8.6-3.4z"/>
+    <path d="M182 208l3.4 8.6 8.6 3.4-8.6 3.4-3.4 8.6-3.4-8.6-8.6-3.4 8.6-3.4z"/>
+    <path d="M342 292l3 7.6 7.6 3-7.6 3-3 7.6-3-7.6-7.6-3 7.6-3z"/>
+    <path d="M158 292l3 7.6 7.6 3-7.6 3-3 7.6-3-7.6-7.6-3 7.6-3z"/>
+    <path d="M250 168l2.8 7 7 2.8-7 2.8-2.8 7-2.8-7-7-2.8 7-2.8z"/>
+    <path d="M140 190l2.4 6 6 2.4-6 2.4-2.4 6-2.4-6-6-2.4 6-2.4z"/>
+    <path d="M360 190l2.4 6 6 2.4-6 2.4-2.4 6-2.4-6-6-2.4 6-2.4z"/>
+  </g>
+
+  <!-- the great star -->
+  <g fill="none" stroke="url(#gold)" stroke-width="2.4" stroke-linejoin="round">
+    <path d="M250 216l12 32 32 12-32 12-12 32-12-32-32-12 32-12z"/>
+    <path d="M250 232l8 20 20 8-20 8-8 20-8-20-20-8 20-8z" opacity="0.7"/>
+  </g>
+  <circle cx="250" cy="260" r="86" fill="url(#glow)" opacity="0.5"/>
+
+  <!-- kneeling figure -->
+  <g fill="#0d0b28" fill-opacity="0.94" stroke="#e9d79a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="228" cy="424" r="22"/>
+    <path d="M228 446c-24 0-40 24-44 60-3 24-4 48-3 68h100c1-22 1-48-2-72-4-30-16-56-51-56z"/>
+    <path d="M228 462l-54 44"/>
+    <path d="M228 462l62 34"/>
+  </g>
+  <!-- hair -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.8">
+    <path d="M208 418c4-14 12-20 22-20s18 6 22 18"/>
+  </g>
+
+  <!-- two jugs -->
+  <g fill="#0d0b28" fill-opacity="0.95" stroke="url(#gold)" stroke-width="2.2" stroke-linejoin="round">
+    <path d="M150 494h34l-6 30h-22z"/>
+    <path d="M160 494v-10h14v10"/>
+  </g>
+  <g fill="#0d0b28" fill-opacity="0.95" stroke="url(#gold)" stroke-width="2.2" stroke-linejoin="round">
+    <path d="M280 484h34l-6 30h-22z"/>
+    <path d="M290 484v-10h14v10"/>
+  </g>
+
+  <!-- water poured onto the land -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2" stroke-linecap="round" opacity="0.9">
+    <path d="M166 526c-2 20-10 32-22 42"/>
+    <path d="M172 530c0 18-6 30-16 40"/>
+  </g>
+  <!-- water poured into the pool -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2" stroke-linecap="round" opacity="0.9">
+    <path d="M296 516c2 20 10 32 24 42"/>
+    <path d="M290 520c0 18 6 30 18 40"/>
+  </g>
+
+  <!-- pool -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.6">
+    <path d="M256 610q40-14 80 0t80 0"/>
+    <path d="M270 632q38-12 76 0t76 0"/>
+  </g>
+
+  <!-- ibis on a low tree -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M112 596V498"/>
+    <path d="M112 520c-14-8-22-22-18-36 12-4 24 2 30 14M112 540c14-8 22-22 18-36-12-4-24 2-30 14"/>
+    <path d="M112 498c0-10 6-16 16-16 8 0 12 6 12 12"/>
+    <path d="M140 494l10 4-10 4"/>
+  </g>
+
+  <!-- ground -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.5">
+    <path d="M92 588h150"/>
+  </g>
+
+  <text x="250" y="768" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="28" fill="url(#gold)" letter-spacing="3">THE STAR</text>
+</svg>

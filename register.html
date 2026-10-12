@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- TODO (before publishing): replace https://example.com with the live domain,
+     supply a real 1200×630 social preview image and confirm every business detail. -->
+<title>Create an Account | Dr. Jasdeep Kaur Tarot &amp; Spiritual Guidance</title>
+<meta name="description" content="Create an account to keep your reading credits, saved readings and appointment history together. This page demonstrates the registration screen and its validation.">
+<link rel="canonical" href="https://example.com/register.html">
+<meta name="theme-color" content="#04030a">
+<meta name="robots" content="noindex, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dr. Jasdeep Kaur — Tarot &amp; Spiritual Guidance">
+<meta property="og:title" content="Create an Account">
+<meta property="og:description" content="Create an account to keep your reading credits, saved readings and appointment history together. This page demonstrates the registration screen and its validation.">
+<meta property="og:url" content="https://example.com/register.html">
+<meta property="og:image" content="https://example.com/assets/images/og-image-placeholder.svg">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Create an Account">
+<meta name="twitter:description" content="Create an account to keep your reading credits, saved readings and appointment history together. This page demonstrates the registration screen and its validation.">
+<meta name="twitter:image" content="https://example.com/assets/images/og-image-placeholder.svg">
+
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="starfield" aria-hidden="true"></div>
+
+<div class="page">
+
+  <!-- ================= Header (identical on every page) ================= -->
+  <header class="site-header" id="site-header">
+    <div class="container container--wide header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">&#10022;</span>
+        <span class="brand__text">
+          <span class="brand__name">Dr. Jasdeep Kaur</span>
+          <span class="brand__tag">Tarot &amp; Spiritual Guidance</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Open navigation menu</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Dr. Jasdeep Kaur</a></li>
+          <li><a href="readings.html">Tarot Readings</a></li>
+          <li><a href="readings.html#angel-cards">Angel Reading</a></li>
+          <li><a href="readings.html#spiritual-guidance">Spiritual Guidance</a></li>
+          <li><a href="daily-tarot.html">Daily Tarot</a></li>
+          <li><a href="pricing.html">Pricing &amp; Credits</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Login / Register</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a class="credit-chip header-credit" data-credit-chip hidden href="pricing.html#wallet">
+            <span class="credit-chip__dot" aria-hidden="true">&#9672;</span>
+            <span data-credit-chip-value>0</span> credits
+          </a>
+          <a class="btn btn--ghost btn--sm nav-actions__auth" href="login.html">Login / Register</a>
+          <a class="btn btn--primary btn--sm" href="booking.html">Book a Reading</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Home</a> &middot; Create an account</p>
+        <h1>Create your account</h1>
+        <p>
+          An account keeps your credits, saved readings and appointments together, so nothing depends on a single
+          browser.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container auth-shell">
+
+        <div class="callout callout--warn" style="margin-bottom:1.6rem">
+          <p style="margin-bottom:0">
+            <strong>This is a demonstration registration screen.</strong> No account is created and no password is
+            stored &mdash; not in localStorage, not in a cookie, not anywhere. The form validates your input so you
+            can see the intended experience, then explains what a live version would need.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2 style="margin-bottom:.4rem">Your details</h2>
+          <p class="muted small">Fields marked with an asterisk are required.</p>
+
+          <p class="form-status" data-form-status hidden></p>
+
+          <form id="register-form" class="form" data-validated novalidate>
+            <div class="field">
+              <label for="register-name">Full name *</label>
+              <input type="text" id="register-name" name="name" autocomplete="name"
+                     data-validate="name" data-label="your full name" required>
+              <p class="field-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="register-email">Email address *</label>
+              <input type="email" id="register-email" name="email" autocomplete="email"
+                     data-validate="email" data-label="your email address" required>
+              <p class="hint">Used to confirm your account and to send booking confirmations.</p>
+              <p class="field-error" role="alert"></p>
+            </div>
+
+            <div class="form-grid">
+              <div class="field">
+                <label for="register-password">Password *</label>
+                <input type="password" id="register-password" name="password" autocomplete="new-password"
+                       data-validate="password" data-label="a password" required>
+                <p class="hint">At least 8 characters, including a letter and a number.</p>
+                <p class="field-error" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="register-confirm">Confirm password *</label>
+                <input type="password" id="register-confirm" name="confirmPassword" autocomplete="new-password"
+                       data-match="#register-password" data-label="your password again" required>
+                <p class="field-error" role="alert"></p>
+              </div>
+            </div>
+
+            <div class="field check">
+              <label>
+                <input type="checkbox" name="terms" data-label="the terms box" required>
+                <span>I accept the <a href="terms.html">Terms and Conditions</a>, the
+                <a href="privacy-policy.html">Privacy Policy</a> and the
+                <a href="disclaimer.html">Disclaimer</a>.</span>
+              </label>
+              <p class="field-error" role="alert"></p>
+            </div>
+
+            <div class="field check">
+              <label>
+                <input type="checkbox" name="updates">
+                <span>Send me occasional notes about new readings and offers. Optional &mdash; you can opt out at
+                any time.</span>
+              </label>
+            </div>
+
+            <div class="btn-row">
+              <button type="submit" class="btn btn--primary btn--lg btn--block">Create account</button>
+            </div>
+          </form>
+
+          <p class="auth-alt" style="margin-top:1.2rem">
+            Already have an account? <a href="login.html">Sign in</a>
+          </p>
+        </div>
+
+        <div class="grid grid--2" style="margin-top:1.5rem">
+          <div class="card">
+            <h3 style="font-size:1.2rem">What an account would give you</h3>
+            <ul class="muted small">
+              <li>Credits held securely on the server, not in a browser</li>
+              <li>A history of readings you can return to from any device</li>
+              <li>Booking confirmations and reminders by email</li>
+              <li>One daily card per day, genuinely enforced</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 style="font-size:1.2rem">How it must be built</h3>
+            <ul class="muted small">
+              <li>Passwords hashed with a modern algorithm (for example bcrypt or Argon2)</li>
+              <li>Email verification before the account becomes active</li>
+              <li>Server-side validation and rate limiting on every endpoint</li>
+              <li>HTTPS everywhere, with secure, http-only session cookies</li>
+            </ul>
+            <p class="small dim" style="margin-bottom:0">
+              Until then, the demo wallet and saved readings live only in this browser.
+            </p>
+          </div>
+        </div>
+
+        <p class="small dim center" style="margin-top:1.5rem">
+          Nothing you type on this page is saved. You can safely test the validation with example details.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= Footer (identical on every page) ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand__mark" aria-hidden="true">&#10022;</span>
+            <span class="brand__text">
+              <span class="brand__name">Dr. Jasdeep Kaur</span>
+              <span class="brand__tag">Tarot &amp; Spiritual Guidance</span>
+            </span>
+          </a>
+          <p style="margin-top:1rem">
+            Tarot readings, angel card messages and one-to-one spiritual guidance, offered online with care and
+            discretion.
+          </p>
+          <p class="small dim">
+            Readings are for reflection and entertainment, and are not legal, medical, financial or psychological
+            advice.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Dr. Jasdeep Kaur</a></li>
+            <li><a href="readings.html">Tarot Readings</a></li>
+            <li><a href="daily-tarot.html">Daily Tarot</a></li>
+            <li><a href="pricing.html">Pricing &amp; Credits</a></li>
+            <li><a href="booking.html">Book a Reading</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="readings.html#love-relationships">Love &amp; Relationship Tarot</a></li>
+            <li><a href="readings.html#career-finance">Career &amp; Finance Tarot</a></li>
+            <li><a href="readings.html#three-card">Three-Card Tarot Reading</a></li>
+            <li><a href="readings.html#yes-no">Yes / No Tarot</a></li>
+            <li><a href="readings.html#angel-cards">Angel Card Reading</a></li>
+            <li><a href="readings.html#spiritual-guidance">Personalized Consultation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <ul>
+            <li>Email: <span data-contact-email>hello@example.com</span></li>
+            <li>Phone: <span data-contact-phone>+00 00000 00000</span></li>
+            <li>WhatsApp: <span data-contact-whatsapp>+00 00000 00000</span></li>
+            <li>Hours: <span data-contact-hours>Monday to Saturday, 10:00 – 19:00 (IST)</span></li>
+            <li><a href="contact.html">Contact page &amp; social links</a></li>
+          </ul>
+          <p class="xsmall dim" style="margin-top:.8rem">
+            Placeholder details &mdash; replace with the real business contact information before publishing.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p style="margin:0">&copy; <span data-current-year>2026</span> Dr. Jasdeep Kaur. All rights reserved.</p>
+        <nav class="footer-legal" aria-label="Legal">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms and Conditions</a>
+          <a href="refund-policy.html">Refund and Cancellation Policy</a>
+          <a href="disclaimer.html">Disclaimer</a>
+        </nav>
+      </div>
+
+      <p class="footer-disclaimer">
+        Dr. Jasdeep Kaur's PhD in Law and her experience as a practising advocate are professional legal
+        qualifications. They are not tarot, astrology or spiritual qualifications, and nothing on this website is
+        legal advice. Tarot and angel card readings are offered for reflection and entertainment only: they do not
+        predict the future with certainty and do not replace advice from a qualified legal, medical, financial or
+        mental health professional.
+      </p>
+    </div>
+  </footer>
+
+</div><!-- /.page -->
+
+<script src="js/main.js" defer></script>
+<script src="js/wallet.js" defer></script>
+<script src="js/booking.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 840" width="500" height="840" role="img" aria-label="The Empress tarot card: a crowned figure seated on a throne amid growing wheat">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#241a52"/><stop offset="0.55" stop-color="#0e0b28"/><stop offset="1" stop-color="#06050f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.36" r="0.62">
+      <stop offset="0" stop-color="#7d60d4" stop-opacity="0.42"/><stop offset="1" stop-color="#7d60d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e9b6"/><stop offset="0.5" stop-color="#d4af37"/><stop offset="1" stop-color="#9d7a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="840" fill="url(#bg)"/>
+  <rect width="500" height="840" fill="url(#glow)"/>
+  <rect x="16" y="16" width="468" height="808" rx="18" fill="none" stroke="url(#gold)" stroke-width="2.6"/>
+  <rect x="30" y="30" width="440" height="780" rx="12" fill="none" stroke="#c9a94a" stroke-width="1" opacity="0.6"/>
+  <g fill="#f1da97" opacity="0.85">
+    <path d="M46 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M46 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+  </g>
+  <text x="250" y="104" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="30" fill="url(#gold)" letter-spacing="6">III</text>
+  <path d="M120 128h260" stroke="#c9a94a" stroke-width="1" opacity="0.45"/>
+
+  <!-- art -->
+  <!-- venus -->
+  <g fill="none" stroke="url(#gold)" stroke-width="2.2">
+    <circle cx="250" cy="180" r="19"/>
+    <path d="M250 199v30M237 217h26"/>
+  </g>
+
+  <!-- throne -->
+  <g fill="none" stroke="#c9a94a" stroke-width="2.2" stroke-linecap="round">
+    <path d="M136 372v222M364 372v222"/>
+    <path d="M136 372q114-58 228 0"/>
+    <path d="M112 594h276"/>
+    <path d="M136 594v40M364 594v40"/>
+  </g>
+
+  <!-- crown of stars -->
+  <g fill="#f1da97" opacity="0.9">
+    <path d="M234 262l3 7.6 7.6 3-7.6 3-3 7.6-3-7.6-7.6-3 7.6-3z"/>
+    <path d="M266 262l3 7.6 7.6 3-7.6 3-3 7.6-3-7.6-7.6-3 7.6-3z"/>
+    <path d="M250 244l2.6 6.6 6.6 2.6-6.6 2.6-2.6 6.6-2.6-6.6-6.6-2.6 6.6-2.6z"/>
+    <path d="M222 282l2.4 6 6 2.4-6 2.4-2.4 6-2.4-6-6-2.4 6-2.4z"/>
+    <path d="M278 282l2.4 6 6 2.4-6 2.4-2.4 6-2.4-6-6-2.4 6-2.4z"/>
+  </g>
+
+  <!-- figure -->
+  <g fill="#0d0b28" fill-opacity="0.92" stroke="#e9d79a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="250" cy="312" r="24"/>
+    <path d="M250 336c-32 0-56 32-62 80-5 40-6 84-4 122h132c2-38 1-82-4-122-6-48-30-80-62-80z"/>
+  </g>
+
+  <!-- heart shield with the venus sign -->
+  <g>
+    <path d="M250 470c-18-22-52-16-52 10 0 26 34 46 52 62 18-16 52-36 52-62 0-26-34-32-52-10z" fill="#0d0b28" stroke="url(#gold)" stroke-width="2.2"/>
+    <g fill="none" stroke="#e9d79a" stroke-width="1.8">
+      <circle cx="250" cy="500" r="9"/>
+      <path d="M250 509v14M244 517h12"/>
+    </g>
+  </g>
+
+  <!-- wheat -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2" stroke-linecap="round" opacity="0.9">
+    <path d="M92 660V560M92 574l-14-12M92 574l14-12M92 600l-14-12M92 600l14-12M92 626l-14-12M92 626l14-12"/>
+    <path d="M124 660V580M124 592l-12-10M124 592l12-10M124 616l-12-10M124 616l12-10"/>
+    <path d="M408 660V560M408 574l-14-12M408 574l14-12M408 600l-14-12M408 600l14-12M408 626l-14-12M408 626l14-12"/>
+    <path d="M376 660V580M376 592l-12-10M376 592l12-10M376 616l-12-10M376 616l12-10"/>
+  </g>
+
+  <!-- waterfall -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.6">
+    <path d="M136 420v190M120 430v170"/>
+    <path d="M140 610q20-8 40 0"/>
+  </g>
+
+  <g fill="none" stroke="#c9a94a" stroke-width="2" opacity="0.65">
+    <path d="M92 660h316"/>
+  </g>
+
+  <text x="250" y="768" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="28" fill="url(#gold)" letter-spacing="3">THE EMPRESS</text>
+</svg>

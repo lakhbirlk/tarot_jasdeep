@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Dr. Jasdeep Kaur — tarot and spiritual guidance">
+  <defs>
+    <linearGradient id="fav-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#241a52"/>
+      <stop offset="1" stop-color="#07061a"/>
+    </linearGradient>
+    <linearGradient id="fav-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6e6ac"/>
+      <stop offset="0.55" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#a3801f"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#fav-bg)"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="url(#fav-gold)" stroke-width="1.4" opacity="0.65"/>
+  <path d="M40 17a15 15 0 1 0 0 30 17 17 0 0 1 0-30z" fill="url(#fav-gold)"/>
+  <path d="M45 22.5l1.7 4.3 4.3 1.7-4.3 1.7-1.7 4.3-1.7-4.3-4.3-1.7 4.3-1.7z" fill="#f6e6ac"/>
+  <circle cx="22" cy="45" r="1.6" fill="#f6e6ac" opacity="0.85"/>
+  <circle cx="49" cy="43" r="1.2" fill="#f6e6ac" opacity="0.7"/>
+</svg>

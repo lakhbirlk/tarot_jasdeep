@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 840" width="500" height="840" role="img" aria-label="The Hermit tarot card: a hooded figure on a peak holding a lantern with a star inside">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#241a52"/><stop offset="0.55" stop-color="#0e0b28"/><stop offset="1" stop-color="#06050f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.36" r="0.62">
+      <stop offset="0" stop-color="#7d60d4" stop-opacity="0.42"/><stop offset="1" stop-color="#7d60d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e9b6"/><stop offset="0.5" stop-color="#d4af37"/><stop offset="1" stop-color="#9d7a1c"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fdf4d8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fdf4d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="840" fill="url(#bg)"/>
+  <rect width="500" height="840" fill="url(#glow)"/>
+  <rect x="16" y="16" width="468" height="808" rx="18" fill="none" stroke="url(#gold)" stroke-width="2.6"/>
+  <rect x="30" y="30" width="440" height="780" rx="12" fill="none" stroke="#c9a94a" stroke-width="1" opacity="0.6"/>
+  <g fill="#f1da97" opacity="0.85">
+    <path d="M46 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M46 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+  </g>
+  <text x="250" y="104" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="30" fill="url(#gold)" letter-spacing="6">IX</text>
+  <path d="M120 128h260" stroke="#c9a94a" stroke-width="1" opacity="0.45"/>
+
+  <!-- art -->
+  <!-- snowy peak -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.55" stroke-linejoin="round">
+    <path d="M84 636l92-160 58 92 40-56 86 124"/>
+    <path d="M176 476l22 34 20-28 18 26"/>
+  </g>
+
+  <!-- lantern glow -->
+  <g transform="translate(340 296)">
+    <circle r="72" fill="url(#lamp)"/>
+  </g>
+
+  <!-- staff -->
+  <g fill="none" stroke="#c9a94a" stroke-width="2.4" stroke-linecap="round">
+    <path d="M166 246v400"/>
+    <path d="M158 262q14-18 28-4"/>
+  </g>
+
+  <!-- hooded figure -->
+  <g fill="#0d0b28" fill-opacity="0.96" stroke="#e9d79a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 288c-24 0-40 22-44 56-4 30-4 62-3 96h94c1-34 1-66-3-96-4-34-20-56-44-56z"/>
+    <path d="M250 300c-30 0-56 40-64 104-7 54-11 122-13 196h154c-2-74-6-142-13-196-8-64-34-104-64-104z"/>
+  </g>
+  <!-- hood -->
+  <g fill="#0d0b28" fill-opacity="0.96" stroke="#e9d79a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="250" cy="296" r="32"/>
+    <path d="M250 264c-30 0-48 20-50 46-2 22 6 40 14 48"/>
+  </g>
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.8">
+    <path d="M228 292c4-10 12-16 22-16s18 6 22 16"/>
+  </g>
+
+  <!-- raised arm to the lantern -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2.6" stroke-linecap="round">
+    <path d="M276 356l56-44"/>
+  </g>
+
+  <!-- lantern -->
+  <g fill="#0d0b28" fill-opacity="0.95" stroke="url(#gold)" stroke-width="2.4" stroke-linejoin="round">
+    <path d="M310 266h60v72h-60z"/>
+    <path d="M302 266h76"/>
+    <path d="M314 246h52"/>
+    <path d="M326 246v20M354 246v20"/>
+  </g>
+  <g fill="none" stroke="#fdf4d8" stroke-width="2" stroke-linecap="round">
+    <path d="M340 280l4 14 14 4-14 4-4 14-4-14-14-4 14-4z"/>
+    <path d="M340 280v-8M340 324v8M318 302h8M354 302h8"/>
+  </g>
+
+  <!-- dark ground -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.5">
+    <path d="M92 664h316"/>
+    <path d="M116 686h120M276 686h108"/>
+  </g>
+
+  <text x="250" y="768" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="28" fill="url(#gold)" letter-spacing="3">THE HERMIT</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" width="720" height="900" role="img" aria-label="Placeholder frame where a professional photograph of Dr. Jasdeep Kaur will appear">
+  <defs>
+    <linearGradient id="ph-bg" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#221a4e"/>
+      <stop offset="0.6" stop-color="#12103a"/>
+      <stop offset="1" stop-color="#07061a"/>
+    </linearGradient>
+    <linearGradient id="ph-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1da97"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#a3801f"/>
+    </linearGradient>
+    <radialGradient id="ph-glow" cx="0.5" cy="0.34" r="0.55">
+      <stop offset="0" stop-color="#d4af37" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="720" height="900" fill="url(#ph-bg)"/>
+  <rect width="720" height="900" fill="url(#ph-glow)"/>
+
+  <!-- dashed placeholder frame -->
+  <rect x="26" y="26" width="668" height="848" rx="18" fill="none" stroke="url(#ph-gold)" stroke-width="1.6"
+        stroke-dasharray="10 9" opacity="0.85"/>
+
+  <!-- silhouette -->
+  <g opacity="0.5">
+    <circle cx="360" cy="368" r="96" fill="none" stroke="#cbb271" stroke-width="2.2" stroke-dasharray="7 7"/>
+    <path d="M180 700c0-99 81-180 180-180s180 81 180 180" fill="none" stroke="#cbb271" stroke-width="2.2" stroke-dasharray="7 7"/>
+  </g>
+
+  <!-- small stars -->
+  <g fill="#f1da97" opacity="0.6">
+    <path d="M120 160l3 7.6 7.6 3-7.6 3-3 7.6-3-7.6-7.6-3 7.6-3z"/>
+    <path d="M612 200l2.4 6 6 2.4-6 2.4-2.4 6-2.4-6-6-2.4 6-2.4z"/>
+    <path d="M560 770l2.8 7 7 2.8-7 2.8-2.8 7-2.8-7-7-2.8 7-2.8z"/>
+  </g>
+
+  <text x="360" y="782" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30"
+        fill="#f1da97" letter-spacing="1.5">Add a professional photograph</text>
+  <text x="360" y="822" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20"
+        fill="#b5afd2" letter-spacing="0.6">Recommended: portrait, 3:4, at least 800 × 1000 px</text>
+</svg>

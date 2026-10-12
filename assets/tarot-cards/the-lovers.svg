@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 840" width="500" height="840" role="img" aria-label="The Lovers tarot card: a winged figure blessing two people beneath a sun">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#241a52"/><stop offset="0.55" stop-color="#0e0b28"/><stop offset="1" stop-color="#06050f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.36" r="0.62">
+      <stop offset="0" stop-color="#7d60d4" stop-opacity="0.42"/><stop offset="1" stop-color="#7d60d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e9b6"/><stop offset="0.5" stop-color="#d4af37"/><stop offset="1" stop-color="#9d7a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="840" fill="url(#bg)"/>
+  <rect width="500" height="840" fill="url(#glow)"/>
+  <rect x="16" y="16" width="468" height="808" rx="18" fill="none" stroke="url(#gold)" stroke-width="2.6"/>
+  <rect x="30" y="30" width="440" height="780" rx="12" fill="none" stroke="#c9a94a" stroke-width="1" opacity="0.6"/>
+  <g fill="#f1da97" opacity="0.85">
+    <path d="M46 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M46 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+  </g>
+  <text x="250" y="104" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="30" fill="url(#gold)" letter-spacing="6">VI</text>
+  <path d="M120 128h260" stroke="#c9a94a" stroke-width="1" opacity="0.45"/>
+
+  <!-- art -->
+  <!-- sun -->
+  <g fill="none" stroke="url(#gold)" stroke-width="2.2" stroke-linecap="round">
+    <circle cx="250" cy="186" r="30"/>
+    <path d="M250 138v-16M250 234v16M202 186h-16M298 186h16M216 152l-12-12M284 152l12-12M216 220l-12 12M284 220l12 12"/>
+  </g>
+
+  <!-- angel -->
+  <g fill="#0d0b28" fill-opacity="0.92" stroke="#e9d79a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="250" cy="262" r="20"/>
+    <path d="M250 282c-18 0-30 22-32 62-2 30-1 62 0 90h64c1-28 2-60 0-90-2-40-14-62-32-62z"/>
+  </g>
+  <g fill="none" stroke="url(#gold)" stroke-width="2.2" stroke-linecap="round">
+    <path d="M232 300c-34-24-70-22-96 8 30 6 54 22 70 44"/>
+    <path d="M268 300c34-24 70-22 96 8-30 6-54 22-70 44"/>
+  </g>
+  <g fill="none" stroke="#e9d79a" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <path d="M160 318l52 34M144 330l46 38M188 310l44 30"/>
+    <path d="M340 318l-52 34M356 330l-46 38M312 310l-44 30"/>
+  </g>
+  <!-- blessing hands -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2.2" stroke-linecap="round">
+    <path d="M236 306l-40 26M264 306l40 26"/>
+  </g>
+
+  <!-- mountain -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.6" stroke-linejoin="round">
+    <path d="M212 600l38-74 38 74"/>
+  </g>
+
+  <!-- two figures -->
+  <g fill="#0d0b28" fill-opacity="0.92" stroke="#e9d79a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="146" cy="452" r="22"/>
+    <path d="M146 474c-22 0-36 26-38 64-2 26-1 48 0 66h76c1-18 2-40 0-66-2-38-16-64-38-64z"/>
+    <circle cx="354" cy="452" r="22"/>
+    <path d="M354 474c-22 0-36 26-38 64-2 26-1 48 0 66h76c1-18 2-40 0-66-2-38-16-64-38-64z"/>
+  </g>
+
+  <!-- flaming tree (left) and fruitful tree (right) -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2" stroke-linecap="round">
+    <path d="M74 604V452"/>
+    <path d="M74 470c-16-10-22-30-12-44 12-12 30-8 36 6 6-14 24-18 36-6 12 14 4 34-14 44"/>
+    <path d="M74 500c-12 4-18 12-18 22M74 520c12 4 18 12 18 22"/>
+  </g>
+  <g fill="none" stroke="#e9d79a" stroke-width="2" stroke-linecap="round">
+    <path d="M426 604V452"/>
+    <path d="M426 470c-16-10-22-30-12-44 12-12 30-8 36 6 6-14 24-18 36-6 12 14 4 34-14 44"/>
+  </g>
+  <g fill="#f1da97" opacity="0.8">
+    <circle cx="410" cy="490" r="4"/><circle cx="442" cy="500" r="4"/><circle cx="424" cy="516" r="4"/>
+  </g>
+
+  <!-- ground -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.55">
+    <path d="M96 604h308"/>
+    <path d="M112 622h120M280 622h108"/>
+  </g>
+
+  <text x="250" y="768" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="28" fill="url(#gold)" letter-spacing="3">THE LOVERS</text>
+</svg>

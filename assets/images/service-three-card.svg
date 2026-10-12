@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Three tarot cards fanned out beneath a star">
+  <defs>
+    <linearGradient id="tc-bg" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#2a1f5e"/>
+      <stop offset="1" stop-color="#0a0821"/>
+    </linearGradient>
+    <linearGradient id="tc-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e9b6"/>
+      <stop offset="0.55" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#9d7a1c"/>
+    </linearGradient>
+    <linearGradient id="tc-card" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#2c2166"/>
+      <stop offset="1" stop-color="#0b0925"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#tc-bg)"/>
+  <g fill="#f4ecd0" opacity="0.6">
+    <circle cx="90" cy="70" r="2.4"/><circle cx="556" cy="76" r="2"/><circle cx="470" cy="330" r="1.8"/>
+    <circle cx="150" cy="340" r="2"/><circle cx="320" cy="40" r="2.2"/>
+  </g>
+  <g transform="translate(320 224)">
+    <g transform="rotate(-17) translate(-118 10)">
+      <rect x="-58" y="-108" width="116" height="196" rx="11" fill="url(#tc-card)" stroke="url(#tc-gold)" stroke-width="2.2"/>
+      <path d="M0 -14l6 15 15 6-15 6-6 15-6-15-15-6 15-6z" fill="#e9d79a" opacity="0.8"/>
+    </g>
+    <g>
+      <rect x="-58" y="-118" width="116" height="196" rx="11" fill="url(#tc-card)" stroke="url(#tc-gold)" stroke-width="2.4"/>
+      <circle cx="0" cy="-32" r="26" fill="none" stroke="#e9d79a" stroke-width="1.8"/>
+      <path d="M-30 46h60" stroke="#c9a94a" stroke-width="1.4"/>
+      <path d="M0 6v78" stroke="#c9a94a" stroke-width="1.2" opacity="0.7"/>
+    </g>
+    <g transform="rotate(17) translate(118 10)">
+      <rect x="-58" y="-108" width="116" height="196" rx="11" fill="url(#tc-card)" stroke="url(#tc-gold)" stroke-width="2.2"/>
+      <path d="M-30 30q30-26 60 0" fill="none" stroke="#e9d79a" stroke-width="1.8"/>
+      <circle cx="0" cy="-24" r="12" fill="none" stroke="#c9a94a" stroke-width="1.4"/>
+    </g>
+  </g>
+  <path d="M320 78l7 18 18 7-18 7-7 18-7-18-18-7 18-7z" fill="#f1da97" opacity="0.9"/>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 840" width="500" height="840" role="img" aria-label="The High Priestess tarot card: a seated figure between two pillars, a crescent moon at her feet">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#241a52"/><stop offset="0.55" stop-color="#0e0b28"/><stop offset="1" stop-color="#06050f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.36" r="0.62">
+      <stop offset="0" stop-color="#7d60d4" stop-opacity="0.42"/><stop offset="1" stop-color="#7d60d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e9b6"/><stop offset="0.5" stop-color="#d4af37"/><stop offset="1" stop-color="#9d7a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="840" fill="url(#bg)"/>
+  <rect width="500" height="840" fill="url(#glow)"/>
+  <rect x="16" y="16" width="468" height="808" rx="18" fill="none" stroke="url(#gold)" stroke-width="2.6"/>
+  <rect x="30" y="30" width="440" height="780" rx="12" fill="none" stroke="#c9a94a" stroke-width="1" opacity="0.6"/>
+  <g fill="#f1da97" opacity="0.85">
+    <path d="M46 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M46 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+  </g>
+  <text x="250" y="104" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="30" fill="url(#gold)" letter-spacing="6">II</text>
+  <path d="M120 128h260" stroke="#c9a94a" stroke-width="1" opacity="0.45"/>
+
+  <!-- art -->
+  <g fill="#0d0b28" fill-opacity="0.9" stroke="url(#gold)" stroke-width="2.4">
+    <rect x="104" y="196" width="46" height="392" rx="6"/>
+    <rect x="350" y="196" width="46" height="392" rx="6"/>
+  </g>
+  <g fill="none" stroke="#c9a94a" stroke-width="2">
+    <path d="M96 196h62M338 196h62M96 588h62M338 588h62"/>
+  </g>
+  <text x="127" y="404" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="url(#gold)" opacity="0.95">B</text>
+  <text x="373" y="404" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="34" fill="url(#gold)" opacity="0.95">J</text>
+
+  <!-- veil -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.6" opacity="0.7">
+    <path d="M150 236q100 34 200 0"/>
+    <path d="M152 296q98 30 196 0"/>
+  </g>
+  <g fill="#e9d79a" opacity="0.65">
+    <circle cx="192" cy="262" r="5"/><circle cx="250" cy="272" r="5"/><circle cx="308" cy="262" r="5"/>
+  </g>
+
+  <!-- seated figure -->
+  <g fill="#0d0b28" fill-opacity="0.92" stroke="#e9d79a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="250" cy="404" r="24"/>
+    <path d="M250 428c-30 0-52 30-56 78-4 34-4 66-2 96h116c2-30 2-62-2-96-4-48-26-78-56-78z"/>
+    <path d="M250 440l-48 44M250 440l48 44"/>
+  </g>
+  <g fill="none" stroke="url(#gold)" stroke-width="2.2" stroke-linecap="round">
+    <path d="M216 390c10-22 24-30 34-30s24 8 34 30"/>
+  </g>
+  <g transform="translate(250 348)">
+    <circle r="16" fill="url(#gold)" opacity="0.9"/>
+    <circle cx="8" cy="-4" r="14" fill="#0d0b28"/>
+  </g>
+
+  <!-- scroll across the lap -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2.2" stroke-linecap="round">
+    <path d="M208 528h84"/>
+    <path d="M208 519a9 9 0 1 0 0 18M292 519a9 9 0 1 1 0 18"/>
+  </g>
+
+  <!-- crescent moon at her feet -->
+  <g transform="translate(250 636)">
+    <circle r="32" fill="url(#gold)" opacity="0.9"/>
+    <circle cx="14" cy="-7" r="28" fill="#0d0b28"/>
+  </g>
+
+  <!-- water -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.55">
+    <path d="M100 690q26-10 52 0t52 0 52 0 52 0 52 0"/>
+    <path d="M118 712q24-9 48 0t48 0 48 0 48 0"/>
+  </g>
+
+  <text x="250" y="768" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="24" fill="url(#gold)" letter-spacing="2">THE HIGH PRIESTESS</text>
+</svg>

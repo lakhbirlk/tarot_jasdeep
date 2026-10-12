@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 840" width="500" height="840" role="img" aria-label="Back of a tarot card: gold lattice with a central star and crescent moon">
+  <defs>
+    <linearGradient id="cb-bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#2a1f5e"/>
+      <stop offset="0.55" stop-color="#12103a"/>
+      <stop offset="1" stop-color="#06050f"/>
+    </linearGradient>
+    <radialGradient id="cb-glow" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#7d60d4" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#7d60d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cb-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e9b6"/>
+      <stop offset="0.5" stop-color="#d4af37"/>
+      <stop offset="1" stop-color="#9d7a1c"/>
+    </linearGradient>
+    <pattern id="cb-lattice" width="46" height="46" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0v46M0 0h46" stroke="#c9a94a" stroke-width="0.9" opacity="0.28" fill="none"/>
+    </pattern>
+  </defs>
+
+  <rect width="500" height="840" fill="url(#cb-bg)"/>
+  <rect width="500" height="840" fill="url(#cb-glow)"/>
+  <rect x="34" y="34" width="432" height="772" fill="url(#cb-lattice)"/>
+
+  <rect x="16" y="16" width="468" height="808" rx="18" fill="none" stroke="url(#cb-gold)" stroke-width="2.6"/>
+  <rect x="34" y="34" width="432" height="772" rx="12" fill="none" stroke="#c9a94a" stroke-width="1" opacity="0.7"/>
+  <rect x="48" y="48" width="404" height="744" rx="8" fill="none" stroke="#c9a94a" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- central medallion -->
+  <g transform="translate(250 420)">
+    <circle r="118" fill="none" stroke="url(#cb-gold)" stroke-width="2"/>
+    <circle r="104" fill="none" stroke="#c9a94a" stroke-width="0.8" opacity="0.6"/>
+    <circle r="92" fill="#0d0b28" opacity="0.85"/>
+    <circle r="92" fill="none" stroke="#c9a94a" stroke-width="1" opacity="0.5"/>
+
+    <!-- crescent -->
+    <path d="M26-58a62 62 0 1 0 0 116 78 78 0 0 1 0-116z" fill="url(#cb-gold)" opacity="0.9"/>
+
+    <!-- star -->
+    <path d="M-8-72l7 20 20 7-20 7-7 20-7-20-20-7 20-7z" fill="#fdf4d8" opacity="0.95"/>
+    <circle cx="-54" cy="34" r="3.4" fill="#f1da97" opacity="0.9"/>
+    <circle cx="56" cy="-8" r="2.6" fill="#f1da97" opacity="0.8"/>
+
+    <!-- inner ring ticks -->
+    <g stroke="#c9a94a" stroke-width="1" opacity="0.55">
+      <path d="M0-92v10M0 92v-10M-92 0h10M92 0h-10"/>
+      <path d="M65-65l-7 7M-65 65l7-7M65 65l-7-7M-65-65l7 7"/>
+    </g>
+  </g>
+
+  <!-- corner stars -->
+  <g fill="#f1da97" opacity="0.8">
+    <path d="M74 74l3.4 8.6 8.6 3.4-8.6 3.4-3.4 8.6-3.4-8.6L62 86l8.6-3.4z"/>
+    <path d="M426 74l3.4 8.6 8.6 3.4-8.6 3.4-3.4 8.6-3.4-8.6L414 86l8.6-3.4z"/>
+    <path d="M74 766l3.4 8.6 8.6 3.4-8.6 3.4-3.4 8.6-3.4-8.6-8.6-3.4 8.6-3.4z"/>
+    <path d="M426 766l3.4 8.6 8.6 3.4-8.6 3.4-3.4 8.6-3.4-8.6-8.6-3.4 8.6-3.4z"/>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 840" width="500" height="840" role="img" aria-label="The Emperor tarot card: a crowned figure on a stone throne holding an ankh">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#241a52"/><stop offset="0.55" stop-color="#0e0b28"/><stop offset="1" stop-color="#06050f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.36" r="0.62">
+      <stop offset="0" stop-color="#7d60d4" stop-opacity="0.42"/><stop offset="1" stop-color="#7d60d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e9b6"/><stop offset="0.5" stop-color="#d4af37"/><stop offset="1" stop-color="#9d7a1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="840" fill="url(#bg)"/>
+  <rect width="500" height="840" fill="url(#glow)"/>
+  <rect x="16" y="16" width="468" height="808" rx="18" fill="none" stroke="url(#gold)" stroke-width="2.6"/>
+  <rect x="30" y="30" width="440" height="780" rx="12" fill="none" stroke="#c9a94a" stroke-width="1" opacity="0.6"/>
+  <g fill="#f1da97" opacity="0.85">
+    <path d="M46 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 46l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M46 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+    <path d="M454 794l3.2 8 8 3.2-8 3.2-3.2 8-3.2-8-8-3.2 8-3.2z"/>
+  </g>
+  <text x="250" y="104" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="30" fill="url(#gold)" letter-spacing="6">IV</text>
+  <path d="M120 128h260" stroke="#c9a94a" stroke-width="1" opacity="0.45"/>
+
+  <!-- art -->
+  <!-- mountains -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.55" stroke-linejoin="round">
+    <path d="M74 462l64-84 44 52 44-62 62 74"/>
+    <path d="M392 462l40-56 40 56"/>
+  </g>
+
+  <!-- throne -->
+  <g fill="#0d0b28" fill-opacity="0.92" stroke="url(#gold)" stroke-width="2.4" stroke-linejoin="round">
+    <path d="M132 300h34v308h-34z"/>
+    <path d="M334 300h34v308h-34z"/>
+    <path d="M120 608h260v38H120z"/>
+  </g>
+
+  <!-- ram heads -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2.2" stroke-linecap="round">
+    <path d="M149 300c-16-4-26-16-24-30 2-12 14-18 24-12 8 5 8 18 0 24"/>
+    <path d="M149 300c-10-6-14-18-10-28"/>
+    <path d="M351 300c16-4 26-16 24-30-2-12-14-18-24-12-8 5-8 18 0 24"/>
+    <path d="M351 300c10-6 14-18 10-28"/>
+  </g>
+
+  <!-- figure -->
+  <g fill="#0d0b28" fill-opacity="0.95" stroke="#e9d79a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="250" cy="316" r="26"/>
+    <path d="M250 342c-30 0-52 28-58 74-5 38-6 78-4 116h124c2-38 1-78-4-116-6-46-28-74-58-74z"/>
+    <path d="M250 356l-64 52"/>
+    <path d="M250 356l62 40"/>
+    <path d="M196 470l54 26 54-26"/>
+  </g>
+
+  <!-- crown -->
+  <g fill="none" stroke="url(#gold)" stroke-width="2.4" stroke-linejoin="round">
+    <path d="M216 292l6-26 14 16 14-24 14 24 14-16 6 26z"/>
+  </g>
+
+  <!-- beard -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2" stroke-linecap="round">
+    <path d="M232 336c4 18 10 26 18 26s14-8 18-26"/>
+  </g>
+
+  <!-- ankh sceptre -->
+  <g fill="none" stroke="url(#gold)" stroke-width="2.6" stroke-linecap="round">
+    <path d="M336 214v150"/>
+    <path d="M336 214c-14 0-20 10-20 20s8 18 20 18 20-8 20-18-6-20-20-20z"/>
+    <path d="M310 252h52"/>
+  </g>
+
+  <!-- orb -->
+  <g fill="none" stroke="#e9d79a" stroke-width="2.2">
+    <circle cx="176" cy="440" r="24"/>
+    <path d="M176 416v48M152 440h48"/>
+  </g>
+
+  <!-- barren ground -->
+  <g fill="none" stroke="#c9a94a" stroke-width="1.8" opacity="0.5">
+    <path d="M96 676h308"/>
+    <path d="M112 694h120M280 694h108"/>
+  </g>
+
+  <text x="250" y="768" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="28" fill="url(#gold)" letter-spacing="3">THE EMPEROR</text>
+</svg>
