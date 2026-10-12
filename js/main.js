@@ -559,13 +559,6 @@
       if (!service) continue;
       nodes[i].textContent = service.credits + " credits · approx. " + service.duration;
     }
-
-    var durations = document.querySelectorAll("[data-duration-for]");
-    for (var d = 0; d < durations.length; d += 1) {
-      var svc = TAROT_CONFIG.getService(durations[d].getAttribute("data-duration-for"));
-      if (!svc) continue;
-      durations[d].textContent = "Approx. " + svc.duration;
-    }
   }
 
   /** <article class="package" data-package="starter"> … </article> */
